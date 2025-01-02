@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #129951;
+    background:transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,14 +26,14 @@ body {
 .logo {
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color:#f8fc05;
     text-decoration: none;
 }
 
 .navbar a{
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color:#f8fc05;
     text-decoration: none;
     margin-left: 35px;
     transition: .3s;
@@ -41,6 +41,12 @@ body {
 
 .navbar a:hover ,
 .navbar a.active{
-    color: #e80606;
+    color:  #ea0707;
+}
+
+.main {
+    min-height: 100vh;
+    background: url('background image.jpg')no-repeat;
+    background-size: cover;
 }
 
